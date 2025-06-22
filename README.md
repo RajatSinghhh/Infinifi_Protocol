@@ -47,10 +47,10 @@ This document summarizes the key vulnerabilities discovered during the security 
 
 ```
 .
-├── Gas_Griefing_In_MultiVote
-├──Missing_Validation_Of_Approve
-├──Missing_Zero_Value_Check
-├──Risk_Of_Usdc_Blacklisted_Address
+├── Gas_Griefing_In_MultiVote.md
+├──Missing_Validation_Of_Approve.md
+├──Missing_Zero_Value_Check.md
+├──Risk_Of_Usdc_Blacklisted_Address.md
 └── README.md   ← (you are here)
 ```
 

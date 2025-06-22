@@ -54,10 +54,9 @@ This document summarizes the key vulnerabilities discovered during the security 
 └── README.md   ← (you are here)
 ```
 
-### ✍️ Contributing
+### ✍️ Contributing
 
-If you encounter other edge cases or security risks worth disclosing, please open an issue or reach out securely.
+If you identify additional vulnerabilities or improvements, please open an issue or submit a pull request. Security disclosures can be sent directly to *[rajatsingh321001@gmail.com]*.
 
 ---
 
-© <?= date('Y') ?> <?= $ownerName ?? "AuditDrop" ?> – All rights reserved.

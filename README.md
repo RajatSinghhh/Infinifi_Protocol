@@ -10,7 +10,7 @@ This document summarizes the key vulnerabilities discovered during the security 
 | -- | -------------------------------------------------------------- | -------------------- | -------------------------------------------------- |
 | 1  | `multiVote` Function Can Be Exploited for Gas Griefing Attacks | Medium               | [Report 1](./Gas_Griefing_In_MultiVote.md)  |
 | 2  | Missing Return Value Checks for `approve()` Calls              | Medium               | [Report 2](./Missing_Validation_Of_Approve.md)  |
-| 3  | Oracle Price Fetch Should Handle Zero `assetPrice`             | Low                  | [Report 3](.Missing_Zero_Value_Check.md) |
+| 3  | Oracle Price Fetch Should Handle Zero `assetPrice`             | Low                  | [Report 3](./Missing_Zero_Value_Check.md) |
 | 4  | `mint()` May Fail Due to USDC Blacklist Restrictions           | Medium               | [Report 4](./Risk_Of_Usdc_Blacklisted_Address.md)     |
 
 > <sup>†</sup> *Severity levels are preliminary. Please refer to individual reports for detailed impact assessment.*
@@ -33,7 +33,7 @@ This document summarizes the key vulnerabilities discovered during the security 
 
 * **Summary:** The protocol does not check if `assetPrice` returned by the oracle is zero, which could lead to faulty logic or economic exploits.
 * **Risk:** Protocol malfunction due to invalid price data.
-* 👉 [Full report](.Missing_Zero_Value_Check.md)
+* 👉 [Full report](./Missing_Zero_Value_Check.md)
 
 ## 4 `mint()` May Fail Due to USDC Blacklist Restrictions
 
